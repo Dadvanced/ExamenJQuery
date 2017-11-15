@@ -85,7 +85,7 @@ function mar() {
 	$("#cuentaTractores").css("opacity", "0");
 	$(".tractor").stop();
 
-	if (contadorTractores > 1) {
+	if (contadorTractores > 0) {
 		$(".tractor").fadeOut(2000, function() {
 			$("#suelo").css("background-image", "url(img/sea.png)");
 		});	
@@ -109,7 +109,7 @@ function campo() {
 	$("#cuentaBarcos").css("opacity", "0");
 	$(".boat").stop();
 
-	if (contadorBarcos > 1) {
+	if (contadorBarcos > 0) {
 		$(".boat").fadeOut(2000, function() {
 			$("#suelo").css("background-image", "url(img/field.jpg)");
 		});	
