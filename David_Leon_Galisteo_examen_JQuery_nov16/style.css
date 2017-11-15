@@ -1,0 +1,154 @@
+#contenedor {
+	width: 1000px;
+	height: 600px;
+	border: 1px black solid;
+	position: absolute;
+}
+
+#escenario {
+	width: 800px;
+	height: 600px;
+	border: 1px black solid;
+	position: relative;
+	float: left;
+}
+
+#cielo {
+	width: 800px;
+	height: 200px;
+	background-color: lightblue;
+}
+
+#suelo {
+	width: 800px;
+	height: 400px;
+	background-color: green;
+}
+
+#secciones {
+	position: absolute;
+	left: 800px;
+}
+
+#secciones > div {
+	padding-left: 10px;
+	border: 1px black solid;
+	height: 118px;
+	width: 190px;
+}
+
+#nubeBtn {
+	width: 75px;
+	height: 75px;
+	background-image: url("img/cloudbtn.png");
+	background-repeat: no-repeat;
+}
+
+.nube {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 150px;
+	height: 80px;
+	background-image: url("img/cloud.png");
+	background-repeat: no-repeat;
+	opacity: 1;
+}
+
+#windBtn {
+	display: inline-block;
+	width: 75px;
+	height: 65px;
+	background-image: url("img/windbtn.png");
+	background-repeat: no-repeat;
+}
+
+#sunBtn {
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	background-image: url("img/sunbtn.png");
+	background-repeat: no-repeat;
+}
+
+.viento {	
+	position: absolute;
+	top: 50px;
+	left: 5px;
+	width: 150px;
+	height: 100px;
+	background-image: url("img/wind.png");
+	background-repeat: no-repeat;
+}
+
+.sol {	
+	position: absolute;
+	top: 50px;
+	left: 5px;
+	width: 150px;
+	height: 150px;
+	background-image: url("img/sun.png");
+	background-repeat: no-repeat;
+}
+
+.tractor {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 150px;
+	height: 95px;
+	background-image: url("img/tractor.png");
+	background-repeat: no-repeat;
+}
+
+.boat {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 125px;
+	height: 125px;
+	background-image: url("img/boat.png");
+	background-repeat: no-repeat;
+}
+
+#seaBtn {
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	background-image: url("img/seabtn.png");
+	background-repeat: no-repeat;
+}
+
+#fieldBtn {
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	background-image: url("img/fieldbtn.png");
+	background-repeat: no-repeat;
+}
+
+#tractorBtn {
+	width: 75px;
+	height: 50px;
+	background-image: url("img/tractorbtn.png");
+	background-repeat: no-repeat;
+}
+
+#boatBtn {
+	width: 75px;
+	height: 90px;
+	background-image: url("img/boatbtn.png");
+	background-repeat: no-repeat;
+}
+
+#seccionVehiculos > span {
+	opacity: 0;
+}
+
+#seccionVehiculos > div {
+	opacity: 0;
+}
+
+#seccionVehiculos {
+	border-bottom: 0px;
+}
